@@ -96,7 +96,11 @@ body {
   }
   /* Responsive Flexbox - for phone (screen less than 700px )*/
   @media screen and (max-width: 700px) {
-    .row, .navbar {   
-      flex-direction: column;
+    li{
+      text-align: center;
+      width: 100%;
+    }
+    .first ,.second {   
+      width: 100%;
     }
   }
